@@ -11,7 +11,12 @@ import cardData from '/utils/data/cardData.json' assert{ type: "json"} ;
 <br/>
 type="module" 추가
 
+<br/>
+
 그냥 파일 index.html 불러오면 cors 에러 남.
 -> 라이브 서버로 돌려야 json 파일 불러와짐
+
+<img width="539" alt="스크린샷 2024-01-19 오후 2 23 23" src="https://github.com/heeeesoo/html-css-list-web/assets/73633272/fcdfc2a7-cb9d-4224-aa00-e56e211e3cad">
+
 
 
