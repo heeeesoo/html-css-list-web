@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../../style/nav.style.css" rel="stylesheet"/>
+    <link href="../../style/main.style.css" rel="stylesheet"/>
+    <link href="../../style/card.list.style.css" rel="stylesheet"/>
+    <link href="../../style//details/detail.style.css" rel="stylesheet"/>
+    <link href="../../style//details/comment.style.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="nav-container">
+        <img class="nav-img" src="../../utils/image/velog.svg" alt="" />
+        <button class="nav-login-button">로그인</button>
+    </nav>
+
+    <section class="detail-container">
+        <div class="detail-padding"></div>
+        <h1 class="detail-title">title</h1>
+        <div class="detail-name">name</div>
+        <div class="detail-contents">
+            contents contents contents contents contents contents 
+            contents contents contents contents contents contents 
+            contents contents contents contents 
+            contents contents contents contents contents contents 
+        </div>
+    </section>
+
+    <section class="comment-container">
+        <form id="comment-form">
+          <label for="comment">comment</label><br>
+          <input type="text" id="comment" name="comment" value="comment"><br>
+          <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section class="comment-display-style" id="comment-display">
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../../javascript/detail.js" defer></script>
+    <script src="../../javascript/comment.js" defer></script>
+</body>
+</html>

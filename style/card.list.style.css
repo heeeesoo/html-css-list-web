@@ -12,3 +12,9 @@
     margin-right: 5px;
     padding-bottom: 10px;
 }
+
+.card {
+    min-width: 300px;
+    width: 90vw;
+    max-width: 350px;
+}

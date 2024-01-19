@@ -5,3 +5,14 @@
     align-items: center;
     height: 64px;
 }
+
+.nav-login-button {
+    width: 74px;
+    height: 30px;
+
+    text-decoration: none;
+    background-color: black;
+    color: white;
+
+    border-radius: 16px;
+}
