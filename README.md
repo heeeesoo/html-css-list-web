@@ -10,3 +10,8 @@ import cardData from '/utils/data/cardData.json' assert{ type: "json"} ;
 <script src="../javascript/main.js" type="module" defer></script>
 <br/>
 type="module" 추가
+
+그냥 파일 index.html 불러오면 cors 에러 남.
+-> 라이브 서버로 돌려야 json 파일 불러와짐
+
+
