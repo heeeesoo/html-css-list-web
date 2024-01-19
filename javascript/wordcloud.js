@@ -2,8 +2,6 @@
 function generateWordFrequency(canvasId) {
 
     const detailContentsDiv = document.querySelector('.detail-contents');
-    const detailContentsDivComment = document.querySelector('.comment-display');
-
     // Retrieve data from session storage
     const storedData = sessionStorage.getItem('formData');
     
@@ -17,7 +15,7 @@ function generateWordFrequency(canvasId) {
     // text 가져오기
     const textContent = canvasId === 'wordCloudCanvas' ? detailContentsDiv.textContent : resultString;
 
-    const words = textContent.toLowerCase().match(/\b\w+\b/g);
+    const words = textContent.match(/[\wㄱ-ㅎ가-힣]+/g);
     const frequencyMap = {};
 
     words.forEach(word => {
