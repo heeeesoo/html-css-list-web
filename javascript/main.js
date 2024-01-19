@@ -66,3 +66,19 @@ function addCardsToContainer(containerId, cardData) {
 
 // Call the function to add cards to the container
 addCardsToContainer('cardListContainer', cardData);
+
+function addEventImg(elementId){
+    const navImg = document.getElementById(elementId);
+    navImg.href = './index.html'; 
+
+    navImg.addEventListener('click', function(event) {
+        // You can prevent the default behavior if needed
+        event.preventDefault();
+
+        // Navigate to the link URL
+        window.location.href = this.href;
+    });
+};
+
+addEventImg('nav-img')
+
