@@ -7,9 +7,11 @@
     <link href="../../style/card.list.style.css" rel="stylesheet"/>
     <link href="../../style//details/detail.style.css" rel="stylesheet"/>
     <link href="../../style//details/comment.style.css" rel="stylesheet"/>
+    <link href="../../style//details/wordcloud.style.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 <body>
     <nav class="nav-container">
@@ -22,26 +24,49 @@
         <h1 class="detail-title">title</h1>
         <div class="detail-name">name</div>
         <div class="detail-contents">
-            contents contents contents contents contents contents 
-            contents contents contents contents contents contents 
-            contents contents contents contents 
-            contents contents contents contents contents contents 
+            Congresswoman Marjorie Taylor Greene was furious on Thursday after Congress passed a '
+            bill that will prevent a partial government shutdown. shutdown shutdown shutdown shutdown
+            shutdown shutdown shutdown shutdown
+            shutdown shutdown shutdown shutdown shutdown
+            shutdown shutdown shutdown shutdown shutdown
+
+            Ms Greene told The Independent that she opposed enacting a continuing resolution — necessary 
+            to avoid this weekend's deadline to have budgets in place — based on her opposition to US funding for Ukraine in its defence against Russia.
+
+            The Democratic-led Senate voted 77-18, and the Republican-led House follo
+            She then claimed the war in Ukraine was "pretty much over."
+
+            The vote split the House GOP in half, with 107 members voting for the bill, and 106 opposing its passage.
+            Republicans have long opposed continuing resolutions and a handful of conservatives joined a motion to 
+            vacate former speaker Kevin McCarthy when he passed a continuing resolution in September. In response, his replacement, Speaker Mike Johnson, 
+            pledged that he would not govern through continuing resolutions.
+            Rather, shortly after his election, Mr Johnson shepherded the passage of a “laddered CR” where part of the 
+            government spending would lapse on 19 January and the other half on 2 February.wed suit, voting 314-108, in favour of the bill.
         </div>
     </section>
 
     <section class="comment-container">
         <form id="comment-form">
           <label for="comment">comment</label><br>
-          <input type="text" id="comment" name="comment" value="comment"><br>
-          <input type="submit" value="Submit">
+          <input type="text" id="comment" name="comment" value="comment" class="comment-input-style"><br>
+          <input type="submit" value="Submit" class="comment-submit-button">
         </form>
     </section>
 
     <section class="comment-display-style" id="comment-display">
     </section>
 
+    <br /><br />
+
+    <canvas id="wordCloudCanvas" width="300px" height="300px"></canvas>
+
+    <hr/>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="../../javascript/detail.js" defer></script>
     <script src="../../javascript/comment.js" defer></script>
+    <script src="../../javascript/wordcloud.js" defer></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
 </body>
 </html>
