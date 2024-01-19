@@ -7,5 +7,6 @@
 import cardData from '/utils/data/cardData.json' assert{ type: "json"} ;
 
 - html 파일에
-'<script src="../javascript/main.js" type="module" defer></script>'
+<script src="../javascript/main.js" type="module" defer></script>
+<br/>
 type="module" 추가
