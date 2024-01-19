@@ -1,7 +1,6 @@
 # html-css-list-web
 
 ### Trouble shootings
-<hr />
 1. javascript에 json 파일 안불러와졌던 에러
 
 - js 파일에
