@@ -1,7 +1,46 @@
+const cardData = [
+    {
+      "title": "Card Title 1",
+      "text": "Some quick example text for card 1.",
+      "imageUrl": "https://velog.velcdn.com/images/juunini/post/3efdaced-4bc5-4852-a8fd-b715bdba136a/image.jpg",
+      "btnText": "detail"
+    },
+    {
+      "title": "Card Title 1",
+      "text": "Some quick example text for card 1.",
+      "imageUrl": "https://velog.velcdn.com/images/juunini/post/3efdaced-4bc5-4852-a8fd-b715bdba136a/image.jpg",
+      "btnText": "detail"
+    },
+    {
+      "title": "Card Title 1",
+      "text": "Some quick example text for card 1.",
+      "imageUrl": "https://velog.velcdn.com/images/juunini/post/3efdaced-4bc5-4852-a8fd-b715bdba136a/image.jpg",
+      "btnText": "detail"
+    },
+    {
+      "title": "Card Title 1",
+      "text": "Some quick example text for card 1.",
+      "imageUrl": "https://velog.velcdn.com/images/juunini/post/3efdaced-4bc5-4852-a8fd-b715bdba136a/image.jpg",
+      "btnText": "detail"
+    },
+    {
+      "title": "Card Title 1",
+      "text": "Some quick example text for card 1.",
+      "imageUrl": "https://velog.velcdn.com/images/juunini/post/3efdaced-4bc5-4852-a8fd-b715bdba136a/image.jpg",
+      "btnText": "detail"
+    },
+    {
+      "title": "Card Title 1",
+      "text": "Some quick example text for card 1.",
+      "imageUrl": "https://velog.velcdn.com/images/juunini/post/3efdaced-4bc5-4852-a8fd-b715bdba136a/image.jpg",
+      "btnText": "detail"
+    }
+]
+
 // const data = require('./cardData.json')
 // import cardData from '../utils/data/cardData.json'
 // const cardData = require('../utils/data/cardData.json')
-import cardData from '/utils/data/cardData.json' assert{ type: "json"} ;
+// import cardData from '/utils/data/cardData.json' assert{ type: "json"} ;
 
 // Function to create a card element
 function createCard(card) {

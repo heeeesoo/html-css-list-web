@@ -1,5 +1,5 @@
 anychart.onDocumentReady(function () {
-    var data = [
+    const data = [
         {
             "x": "IT",
             "value": 590000000,
@@ -29,7 +29,7 @@ anychart.onDocumentReady(function () {
             category: "Afro-Asiatic"
         }
     ];
-    var chart = anychart.tagCloud(data);
+    const chart = anychart.tagCloud(data);
     chart.angles([0]);
     chart.container("container");
     // chart.getCredits().setEnabled(false);
